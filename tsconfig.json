@@ -1,0 +1,14 @@
+// O tsconfig.json é essencial para configurar as opções de compilação do TypeScript, incluindo o diretório de saída e a versão do ECMAScript.
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6"
+    },
+    "include": [
+        "app/**/*"
+    ]
+
+}
+//O target define a versão do JavaScript,
+//  outDir define o local onde os arquivos compilados serão salvos
+// include define os arquivos que serão compilados.
